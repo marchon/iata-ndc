@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2012 rel. 2 sp1 (x64) (http://www.altova.com) by Eamonn.Moloney (Datalex Ireland Limited) -->
+<AirShoppingRQ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ../Schema/AirShoppingRQ.xsd" xmlns="http://www.iata.org/IATA/EDIST" xmlns:dlxofferid="http://www.datalex.com/IATA/NDC/shoppingresponseids" Version="15.2">
+	<PointOfSale id="SWISS">
+		<Location>
+			<CountryCode>CH</CountryCode>
+		</Location>
+	</PointOfSale>
+	<Document>
+		<ReferenceVersion>15.2</ReferenceVersion>
+	</Document>
+	<Party>
+		<Sender>
+			<AgentUserSender>
+				<AgentUserID Owner="SWISS">1</AgentUserID>
+				<UserRole>5</UserRole>
+			</AgentUserSender>
+		</Sender>
+	</Party>
+	<Parameters>
+		<Languages>
+			<LanguageCode>EN</LanguageCode>
+		</Languages>
+		<CurrCodes>
+			<CurrCode>EUR</CurrCode>
+		</CurrCodes>
+		<ServiceFilters>
+			<ServiceFilter>
+				<GroupCode>IN_FLIGHT_MEALS</GroupCode>
+				<SubGroupCode>SS</SubGroupCode>
+			</ServiceFilter>
+			<ServiceFilter>
+				<GroupCode>BAGS</GroupCode>
+			</ServiceFilter>
+		</ServiceFilters>
+	</Parameters>
+	<Travelers>
+		<Traveler>
+			<AnonymousTraveler>
+				<PTC Quantity="2">ADT</PTC>
+			</AnonymousTraveler>
+		</Traveler>
+		<Traveler>
+			<AnonymousTraveler>
+				<PTC Quantity="1">CHD</PTC>
+			</AnonymousTraveler>
+		</Traveler>
+		<Traveler>
+			<AnonymousTraveler>
+				<PTC Quantity="1">INF</PTC>
+			</AnonymousTraveler>
+		</Traveler>
+	</Travelers>
+	<CoreQuery>
+		<ShoppingResponseIDs>
+			<ResponseID>001</ResponseID>
+			<dlxofferid:DlxExtension>
+				<dlxofferid:OfferID Owner="LX">2ce78926-dac7-4fd1-a9d6-bf3a12d41079</dlxofferid:OfferID>
+			</dlxofferid:DlxExtension>
+		</ShoppingResponseIDs>
+	</CoreQuery>
+</AirShoppingRQ>

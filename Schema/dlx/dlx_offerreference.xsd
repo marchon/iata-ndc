@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2012 rel. 2 sp1 (x64) (http://www.altova.com) by Eamonn.Moloney (Datalex Ireland Limited) -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:edist="http://www.iata.org/IATA/EDIST" xmlns="http://www.datalex.com/IATA/NDC/shoppingresponseids" xmlns:ns1="http://www.datalex.com/IATA/NDC/offerreference" targetNamespace="http://www.datalex.com/IATA/NDC/offerreference" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xsd:import namespace="http://www.iata.org/IATA/EDIST" schemaLocation="../edist_structures.xsd"/>
+	<xsd:import namespace="http://www.iata.org/IATA/EDIST" schemaLocation="../edist_commontypes.xsd"/>
+	<xsd:element name="DlxExtension">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="edist:OfferReference"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

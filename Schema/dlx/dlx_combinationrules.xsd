@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2012 rel. 2 sp1 (x64) (http://www.altova.com) by Eamonn.Moloney (Datalex Ireland Limited) -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:edist="http://www.iata.org/IATA/EDIST" xmlns="http://www.datalex.com/IATA/NDC/combinationrules" targetNamespace="http://www.datalex.com/IATA/NDC/combinationrules" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xsd:import namespace="http://www.iata.org/IATA/EDIST" schemaLocation="../edist_structures.xsd"/>
+	<xsd:import namespace="http://www.iata.org/IATA/EDIST" schemaLocation="../edist_commontypes.xsd"/>
+	<xsd:element name="DlxExtension">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="CombinabilityRules">
+					<xsd:complexType>
+						<xsd:choice>
+							<xsd:element name="RequiredToPurchase" type="xsd:IDREF" maxOccurs="unbounded">
+								<xsd:annotation>
+									<xsd:documentation>RequiredToPurchase contains all those OfferItemIDs that must be purchased along with this particular OfferItem</xsd:documentation>
+								</xsd:annotation>
+							</xsd:element>
+							<xsd:element name="MutuallyExclusive" type="xsd:IDREF" maxOccurs="unbounded">
+								<xsd:annotation>
+									<xsd:documentation>MutuallyExclusive contains all those OfferItemIDs that cannot be purchased along with this particular OfferItem</xsd:documentation>
+								</xsd:annotation>
+							</xsd:element>
+						</xsd:choice>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

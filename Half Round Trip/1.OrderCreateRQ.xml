@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2012 rel. 2 sp1 (x64) (http://www.altova.com) by Eamonn.Moloney (Datalex Ireland Limited) -->
+<OrderCreateRQ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ../Schema/OrderCreateRQ.xsd" xmlns="http://www.iata.org/IATA/EDIST" Version="15.2">
+	<PointOfSale id="SWISS">
+		<Location>
+			<CountryCode>CH</CountryCode>
+		</Location>
+	</PointOfSale>
+	<Document>
+		<ReferenceVersion>15.2</ReferenceVersion>
+	</Document>
+	<Party>
+		<Sender>
+			<AgentUserSender>
+				<AgentUserID Owner="SWISS">1</AgentUserID>
+				<UserRole>5</UserRole>
+			</AgentUserSender>
+		</Sender>
+	</Party>
+	<Query>
+		<Passengers>
+			<Passenger ObjectKey="pax1">
+				<PTC>ADT</PTC>
+				<ResidenceCode>IE</ResidenceCode>
+				<PassengerAssociation>pax4</PassengerAssociation>
+				<Age>
+					<BirthDate>1983-09-22</BirthDate>
+				</Age>
+				<CitizenshipCountryCode>IE</CitizenshipCountryCode>
+				<Name>
+					<Surname>Jones</Surname>
+					<Given>Felix</Given>
+					<Title>Mr</Title>
+				</Name>
+			</Passenger>
+			<Passenger ObjectKey="pax2">
+				<PTC>ADT</PTC>
+				<ResidenceCode>IE</ResidenceCode>
+				<Age>
+					<BirthDate>1981-07-30</BirthDate>
+				</Age>
+				<CitizenshipCountryCode>IE</CitizenshipCountryCode>
+				<Name>
+					<Surname>Stone</Surname>
+					<Given>Lucy</Given>
+					<Title>Mr</Title>
+				</Name>
+			</Passenger>
+			<Passenger ObjectKey="pax3">
+				<PTC>CHD</PTC>
+				<ResidenceCode>IE</ResidenceCode>
+				<Age>
+					<BirthDate>2011-05-12</BirthDate>
+				</Age>
+				<CitizenshipCountryCode>IE</CitizenshipCountryCode>
+				<Name>
+					<Surname>Jones</Surname>
+					<Given>Tom</Given>
+					<Title>Mr</Title>
+				</Name>
+			</Passenger>
+			<Passenger ObjectKey="pax4">
+				<PTC>INF</PTC>
+				<ResidenceCode>IE</ResidenceCode>
+				<Age>
+					<BirthDate>2015-05-12</BirthDate>
+				</Age>
+				<CitizenshipCountryCode>IE</CitizenshipCountryCode>
+				<Name>
+					<Surname>Stone</Surname>
+					<Given>Sharon</Given>
+					<Title>Mr</Title>
+				</Name>
+			</Passenger>
+		</Passengers>
+		<OrderItems>
+			<ShoppingResponse>
+				<Owner>LX</Owner>
+				<ResponseID>001</ResponseID>
+				<Offers>
+					<Offer>
+						<OfferID Owner="LX">2ce78926-dac7-4fd1-a9d6-bf3a12d41079</OfferID>
+						<OfferItems>
+							<OfferItem>
+								<OfferItemID Owner="LX">ID_989addd3-1e25-400a-8606-5ff2e63c9957</OfferItemID>
+								<Passengers>
+									<PassengerReference>pax1 pax2 pax3 pax4</PassengerReference>
+								</Passengers>
+							</OfferItem>
+							<OfferItem>
+								<OfferItemID Owner="LX">ID_5e5aac72-363e-4ab6-bcfb-6e2c2ab8fcbc</OfferItemID>
+							</OfferItem>
+							<OfferItem>
+								<OfferItemID Owner="LX">ID_97058933-853c-48fd-8e7f-420bc2aed597</OfferItemID>
+							</OfferItem>
+							<OfferItem>
+								<OfferItemID Owner="LX">ID_5d5586ca-6c76-44b5-b9ce-140b3910ffde</OfferItemID>
+								<Passengers>
+									<PassengerReference>pax1</PassengerReference>
+								</Passengers>
+							</OfferItem>
+							<OfferItem>
+								<OfferItemID Owner="LX">ID_91cbee32-6602-4cf5-890c-470bfe6727fe</OfferItemID>
+								<Passengers>
+									<PassengerReference>pax1</PassengerReference>
+								</Passengers>
+							</OfferItem>
+						</OfferItems>
+					</Offer>
+				</Offers>
+			</ShoppingResponse>
+		</OrderItems>
+	</Query>
+</OrderCreateRQ>

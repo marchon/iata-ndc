@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2012 rel. 2 sp1 (x64) (http://www.altova.com) by Eamonn.Moloney (Datalex Ireland Limited) -->
+<AirShoppingRQ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ../Schema/AirShoppingRQ.xsd" xmlns="http://www.iata.org/IATA/EDIST" xmlns:dlxpricing="http://www.datalex.com/IATA/NDC/parameters/pricing" Version="15.2">
+	<PointOfSale id="SWISS">
+		<Location>
+			<CountryCode>CH</CountryCode>
+		</Location>
+	</PointOfSale>
+	<Document>
+		<ReferenceVersion>15.2</ReferenceVersion>
+	</Document>
+	<Party>
+		<Sender>
+			<AgentUserSender>
+				<AgentUserID Owner="SWISS">12345</AgentUserID>
+				<UserRole>5</UserRole>
+			</AgentUserSender>
+		</Sender>
+	</Party>
+	<Parameters>
+		<Languages>
+			<LanguageCode>EN</LanguageCode>
+		</Languages>
+		<CurrCodes>
+			<CurrCode>EUR</CurrCode>
+		</CurrCodes>
+		<Pricing dlxpricing:HalfRoundTripInd="true"/>
+	</Parameters>
+	<Travelers>
+		<Traveler>
+			<AnonymousTraveler>
+				<PTC Quantity="2">ADT</PTC>
+			</AnonymousTraveler>
+		</Traveler>
+		<Traveler>
+			<AnonymousTraveler>
+				<PTC Quantity="1">CHD</PTC>
+			</AnonymousTraveler>
+		</Traveler>
+		<Traveler>
+			<AnonymousTraveler>
+				<PTC Quantity="1">INF</PTC>
+			</AnonymousTraveler>
+		</Traveler>
+	</Travelers>
+	<CoreQuery>
+		<OriginDestinations>
+			<OriginDestination>
+				<Departure>
+					<AirportCode>DUB</AirportCode>
+					<Date>2016-05-12</Date>
+				</Departure>
+				<Arrival>
+					<AirportCode>ZRH</AirportCode>
+				</Arrival>
+			</OriginDestination>
+			<OriginDestination>
+				<Departure>
+					<AirportCode>ZRH</AirportCode>
+					<Date>2016-05-20</Date>
+				</Departure>
+				<Arrival>
+					<AirportCode>DUB</AirportCode>
+				</Arrival>
+			</OriginDestination>
+		</OriginDestinations>
+	</CoreQuery>
+</AirShoppingRQ>

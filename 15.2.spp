@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<Folder FolderName="XML Files" ExtStr="xml;cml;math;rdf;smil;svg;wml">
+		<Folder FolderName="Oneway Trip">
+			<File FilePath="Oneway Trip\1.AirShoppingRQ.xml" HomeFolder="Yes"/>
+			<File FilePath="Oneway Trip\1.AirShoppingRS.xml" HomeFolder="Yes"/>
+			<File FilePath="Oneway Trip\1.OrderCreateRQ.xml" HomeFolder="Yes"/>
+			<File FilePath="Oneway Trip\1.OrderViewRS.xml" HomeFolder="Yes"/>
+			<File FilePath="Oneway Trip\2.AirShoppingRQ.xml" HomeFolder="Yes"/>
+			<File FilePath="Oneway Trip\2.AirShoppingRS.xml" HomeFolder="Yes"/>
+			<File FilePath="Oneway Trip\3.AirShoppingRQ.xml" HomeFolder="Yes"/>
+			<File FilePath="Oneway Trip\3.AirShoppingRS.xml" HomeFolder="Yes"/>
+		</Folder>
+		<Folder FolderName="Round Trip">
+			<File FilePath="Round Trip\1.AirShoppingRQ.xml" HomeFolder="Yes"/>
+			<File FilePath="Round Trip\1.AirShoppingRS.xml" HomeFolder="Yes"/>
+			<File FilePath="Round Trip\1.OrderCreateRQ.xml" HomeFolder="Yes"/>
+			<File FilePath="Round Trip\1.OrderViewRS.xml" HomeFolder="Yes"/>
+			<File FilePath="Round Trip\2.AirShoppingRQ.xml" HomeFolder="Yes"/>
+			<File FilePath="Round Trip\2.AirShoppingRS.xml" HomeFolder="Yes"/>
+			<File FilePath="Round Trip\3.AirShoppingRQ.xml" HomeFolder="Yes"/>
+			<File FilePath="Round Trip\3.AirShoppingRS.xml" HomeFolder="Yes"/>
+		</Folder>
+		<Folder FolderName="Half Round Trip">
+			<File FilePath="Half Round Trip\1.OrderCreateRQ.xml" HomeFolder="Yes"/>
+			<File FilePath="Half Round Trip\1.OrderViewRS.xml" HomeFolder="Yes"/>
+			<File FilePath="Half Round Trip\1a.AirShoppingRQ.xml" HomeFolder="Yes"/>
+			<File FilePath="Half Round Trip\1a.AirShoppingRS.xml" HomeFolder="Yes"/>
+			<File FilePath="Half Round Trip\1b.AirShoppingRQ.xml" HomeFolder="Yes"/>
+			<File FilePath="Half Round Trip\1b.AirShoppingRS.xml" HomeFolder="Yes"/>
+			<File FilePath="Half Round Trip\2.AirShoppingRQ.xml" HomeFolder="Yes"/>
+			<File FilePath="Half Round Trip\2.AirShoppingRS.xml" HomeFolder="Yes"/>
+			<File FilePath="Half Round Trip\3.AirShoppingRQ.xml" HomeFolder="Yes"/>
+			<File FilePath="Half Round Trip\3.AirShoppingRS.xml" HomeFolder="Yes"/>
+		</Folder>
+		<Folder FolderName="Round Trip Calendar">
+			<File FilePath="Round Trip Calendar\1.AirShoppingRQ.xml" HomeFolder="Yes"/>
+			<File FilePath="Round Trip Calendar\1.AirShoppingRS.xml" HomeFolder="Yes"/>
+			<File FilePath="Round Trip Calendar\1.OrderCreateRQ.xml" HomeFolder="Yes"/>
+			<File FilePath="Round Trip Calendar\1.OrderViewRS.xml" HomeFolder="Yes"/>
+			<File FilePath="Round Trip Calendar\2.AirShoppingRQ.xml" HomeFolder="Yes"/>
+			<File FilePath="Round Trip Calendar\2.AirShoppingRS.xml" HomeFolder="Yes"/>
+			<File FilePath="Round Trip Calendar\3.AirShoppingRQ.xml" HomeFolder="Yes"/>
+			<File FilePath="Round Trip Calendar\3.AirShoppingRS.xml" HomeFolder="Yes"/>
+		</Folder>
+	</Folder>
+	<Folder FolderName="DTD/Schemas" ExtStr="dtd;dcd;xdr;biz;xsd">
+		<Folder FolderName="dlx">
+			<File FilePath="Schema\dlx\dlx_allowed.xsd" HomeFolder="Yes"/>
+			<File FilePath="Schema\dlx\dlx_association.xsd" HomeFolder="Yes"/>
+			<File FilePath="Schema\dlx\dlx_availabilitystatus.xsd" HomeFolder="Yes"/>
+			<File FilePath="Schema\dlx\dlx_combinationrules.xsd" HomeFolder="Yes"/>
+			<File FilePath="Schema\dlx\dlx_language.xsd" HomeFolder="Yes"/>
+			<File FilePath="Schema\dlx\dlx_offeritem.xsd" HomeFolder="Yes"/>
+			<File FilePath="Schema\dlx\dlx_offerreference.xsd" HomeFolder="Yes"/>
+			<File FilePath="Schema\dlx\dlx_offers.xsd" HomeFolder="Yes"/>
+			<File FilePath="Schema\dlx\dlx_priceclassreference.xsd" HomeFolder="Yes"/>
+			<File FilePath="Schema\dlx\dlx_pricing.xsd" HomeFolder="Yes"/>
+			<File FilePath="Schema\dlx\dlx_seatmap.xsd" HomeFolder="Yes"/>
+		</Folder>
+		<File FilePath="Schema\Acknowledgement.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\AirDocCancelRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\AirDocCancelRS.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\AirDocDisplayRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\AirDocDisplayRS.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\AirDocExchangeRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\AirDocHistoryRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\AirDocHistoryRS.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\AirDocIssueRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\AirDocRefundRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\AirDocRefundRS.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\AirDocVoidRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\AirDocVoidRS.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\AirShoppingRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\AirShoppingRS.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\BaggageAllowanceRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\BaggageAllowanceRS.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\BaggageChargesRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\BaggageChargesRS.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\BaggageListRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\BaggageListRS.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\CustomerInputRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\CustomerInputRS.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\edist_commontypes.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\edist_structures.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\FareRulesRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\FareRulesRS.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\FileRetrieveRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\FileRetrieveRS.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\FlightPriceRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\FlightPriceRS.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\InvGuaranteeRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\InvGuaranteeRS.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\InvReleaseNotif.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\ItinReshopRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\ItinReshopRS.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\OrderCancelRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\OrderCancelRS.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\OrderChangeNotif.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\OrderChangeRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\OrderCreateRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\OrderHistoryNotif.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\OrderHistoryRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\OrderHistoryRS.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\OrderListRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\OrderListRS.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\OrderRetrieveRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\OrderRulesRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\OrderRulesRS.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\OrderViewRS.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\SeatAvailabilityRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\SeatAvailabilityRS.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\ServiceListRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\ServiceListRS.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\ServicePriceRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\ServicePriceRS.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\ShopProductRQ.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\ShopProductRS.xsd" HomeFolder="Yes"/>
+		<File FilePath="Schema\xmldsig-core-schema.xsd" HomeFolder="Yes"/>
+	</Folder>
+</Project>

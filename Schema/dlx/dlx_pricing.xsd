@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2012 rel. 2 sp1 (x64) (http://www.altova.com) by Eamonn.Moloney (Datalex Ireland Limited) -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dlxpricing="http://www.datalex.com/IATA/NDC/parameters/pricing" targetNamespace="http://www.datalex.com/IATA/NDC/parameters/pricing" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xsd:attribute name="HalfRoundTripInd" type="xsd:boolean">
+		<xsd:annotation>
+			<xsd:documentation source="description" xml:lang="en">When TRUE, this request is to be priced as a half round trip.
+
+If there is an OriginDestination provided this will be the first step.
+
+If an OfferID is provided  this will be the second step.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:attribute>	
+</xsd:schema>

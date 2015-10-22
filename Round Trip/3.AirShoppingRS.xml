@@ -1,0 +1,1596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2012 rel. 2 sp1 (x64) (http://www.altova.com) by Eamonn.Moloney (Datalex Ireland Limited) -->
+<AirShoppingRS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ../Schema/AirShoppingRS.xsd" xmlns="http://www.iata.org/IATA/EDIST" Version="15.2" xmlns:dlxseatmap="http://www.datalex.com/IATA/NDC/seatmap" xmlns:dlxcombinationrules="http://www.datalex.com/IATA/NDC/combinationrules" xmlns:dlxofferitem="http://www.datalex.com/IATA/NDC/offeritem/required" xmlns:dlxpriceclassreference="http://www.datalex.com/IATA/NDC/priceclassreference" xmlns:dlxlanguage="http://www.datalex.com/IATA/NDC/language" xmlns:dlxallowed="http://www.datalex.com/IATA/NDC/allowed" xmlns:dlxavailabilitystatus="http://www.datalex.com/IATA/NDC/availabilitystatus">
+	<Document>
+		<ReferenceVersion>15.2</ReferenceVersion>
+	</Document>
+	<Success/>
+	<AirShoppingProcessing/>
+	<OffersGroup>
+		<AirlineOffers>
+			<AirlineOffer>
+				<OfferID Owner="LX">2ce78926-dac7-4fd1-a9d6-bf3a12d41079</OfferID>
+				<PricedOffer>
+					<OfferPrice OfferItemID="ID_989addd3-1e25-400a-8606-5ff2e63c9957" dlxofferitem:Required="true">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">141.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax1</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh od-zrhdub</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_11efc7dc-dec5-4bbc-a462-9893a7a7df1d</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax2</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh od-zrhdub</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_11efc7dc-dec5-4bbc-a462-9893a7a7df1d</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax3</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh od-zrhdub</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_19503692-cb7f-4457-b2fd-14f3a36e7a89</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax4</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh od-zrhdub</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_63d4825e-ea3b-4264-80b4-e1dbcf5aea4c</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_5e5aac72-363e-4ab6-bcfb-6e2c2ab8fcbc">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">22.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<IncludedService>
+									<ServiceReferences>serviceId-hold-booking</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_97058933-853c-48fd-8e7f-420bc2aed597">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">89.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-upgrade-to-business-1a</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_db9098b4-aa0b-4e63-829f-edb5ee73f3f6" dlxofferitem:ObjectKey="ID_f169431c-f9f0-41ea-929f-3ad9c15b5cf4">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">150.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-zrhdub</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-upgrade-to-business-1b</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_52532a1d-8f8e-4bd3-b85b-5d44ec87fefa" dlxofferitem:ObjectKey="ID_35f4c68e-eaac-49d8-b6ec-a57bac9c7af2">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">15.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax1</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-first-checked-bag</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_135fcbd9-1b16-4d6c-8b63-0311f7747ebe" dlxofferitem:ObjectKey="ID_0c4ed3c2-c900-4f17-9830-edcc037166c6">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">15.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax2</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-first-checked-bag</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_855359be-5a34-406e-a462-17879082f2aa">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">15.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax3</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-first-checked-bag</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+						<dlxcombinationrules:DlxExtension>
+							<dlxcombinationrules:CombinabilityRules>
+								<dlxcombinationrules:RequiredToPurchase>ID_f169431c-f9f0-41ea-929f-3ad9c15b5cf4</dlxcombinationrules:RequiredToPurchase>
+							</dlxcombinationrules:CombinabilityRules>
+						</dlxcombinationrules:DlxExtension>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_4801abd3-4319-4354-aa8e-af406e83bf63">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">45.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax1</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-additional-checked-bag</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+						<dlxcombinationrules:DlxExtension>
+							<dlxcombinationrules:CombinabilityRules>
+								<dlxcombinationrules:RequiredToPurchase>ID_35f4c68e-eaac-49d8-b6ec-a57bac9c7af2</dlxcombinationrules:RequiredToPurchase>
+							</dlxcombinationrules:CombinabilityRules>
+						</dlxcombinationrules:DlxExtension>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_7ac0cc16-6f58-42e2-84d7-f1870f191141">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">45.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax2</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-additional-checked-bag</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+						<dlxcombinationrules:DlxExtension>
+							<dlxcombinationrules:CombinabilityRules>
+								<dlxcombinationrules:RequiredToPurchase>ID_0c4ed3c2-c900-4f17-9830-edcc037166c6</dlxcombinationrules:RequiredToPurchase>
+							</dlxcombinationrules:CombinabilityRules>
+						</dlxcombinationrules:DlxExtension>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_a9e32c88-9c1c-439e-8390-a7f9de4ce9f7">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">45.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax3</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-additional-checked-bag</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_5d5586ca-6c76-44b5-b9ce-140b3910ffde">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">15.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax1</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-zrhdub</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-first-checked-bag</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_6d85c632-a454-4f72-8a58-337e12f93998">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">15.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax2</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-zrhdub</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-first-checked-bag</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_8088e582-ec2f-49b8-8744-a6ec7a88df52">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">15.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax3</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-zrhdub</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-first-checked-bag</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_0a9e5baa-b64f-4a7b-a06a-098c88fa638b" dlxofferitem:ObjectKey="ID_927a880f-0847-42c2-b429-2a11ce88fd25">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">45.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax1</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-zrhdub</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-additional-checked-bag</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+						<dlxcombinationrules:DlxExtension>
+							<dlxcombinationrules:CombinabilityRules>
+								<dlxcombinationrules:MutuallyExclusive>ID_641e96cc-9ec7-ID_40e9-9fba-81d00a6e8b2e</dlxcombinationrules:MutuallyExclusive>
+							</dlxcombinationrules:CombinabilityRules>
+						</dlxcombinationrules:DlxExtension>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_f08f7e68-bbab-483b-b4c7-aed52e164074" dlxofferitem:ObjectKey="ID_aa40bdc2-2add-4c43-9a41-5923840fcc45">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">45.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax2</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-zrhdub</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-additional-checked-bag</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+						<dlxcombinationrules:DlxExtension>
+							<dlxcombinationrules:CombinabilityRules>
+								<dlxcombinationrules:MutuallyExclusive>ID_4f5cd989-29bc-475c-9784-a680fe9190ea</dlxcombinationrules:MutuallyExclusive>
+							</dlxcombinationrules:CombinabilityRules>
+						</dlxcombinationrules:DlxExtension>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_e04e99a5-05a7-47b9-bfff-ed012d80f56c" dlxofferitem:ObjectKey="ID_868d47d0-d5e3-4b75-bb98-2f39a32be0a7">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">45.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax3</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-zrhdub</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-additional-checked-bag</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+						<dlxcombinationrules:DlxExtension>
+							<dlxcombinationrules:CombinabilityRules>
+								<dlxcombinationrules:MutuallyExclusive>ID_96ae28a6-c36d-42bf-be93-d5cc5313f2bd</dlxcombinationrules:MutuallyExclusive>
+							</dlxcombinationrules:CombinabilityRules>
+						</dlxcombinationrules:DlxExtension>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_95919d19-500e-4caa-a646-ebadce8c14e0" dlxofferitem:ObjectKey="ID_641e96cc-9ec7-ID_40e9-9fba-81d00a6e8b2e">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">23.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-chocolate-pralines</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+						<dlxcombinationrules:DlxExtension>
+							<dlxcombinationrules:CombinabilityRules>
+								<dlxcombinationrules:MutuallyExclusive>ID_927a880f-0847-42c2-b429-2a11ce88fd25</dlxcombinationrules:MutuallyExclusive>
+							</dlxcombinationrules:CombinabilityRules>
+						</dlxcombinationrules:DlxExtension>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_b35ecd2f-a98a-43c0-80f0-a956258856ee" dlxofferitem:ObjectKey="ID_4f5cd989-29bc-475c-9784-a680fe9190ea">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">45.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-chocolate-truffles</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+						<dlxcombinationrules:DlxExtension>
+							<dlxcombinationrules:CombinabilityRules>
+								<dlxcombinationrules:MutuallyExclusive>ID_aa40bdc2-2add-4c43-9a41-5923840fcc45</dlxcombinationrules:MutuallyExclusive>
+							</dlxcombinationrules:CombinabilityRules>
+						</dlxcombinationrules:DlxExtension>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_6c1b88b3-c81d-4fad-bf42-df5a13e51afd" dlxofferitem:ObjectKey="ID_96ae28a6-c36d-42bf-be93-d5cc5313f2bd">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">33.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-champagne-375ml</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+						<dlxcombinationrules:DlxExtension>
+							<dlxcombinationrules:CombinabilityRules>
+								<dlxcombinationrules:MutuallyExclusive>ID_868d47d0-d5e3-4b75-bb98-2f39a32be0a7</dlxcombinationrules:MutuallyExclusive>
+							</dlxcombinationrules:CombinabilityRules>
+						</dlxcombinationrules:DlxExtension>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_b9f19d3e-63be-4724-8fd0-9e82bcce9dd6">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">55.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-champagne-750ml</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_2f3a45b3-e2f7-44e0-b68c-f2b4dbe97d45">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">23.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-zrhdub</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-chocolate-pralines</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_1515ce92-9354-4e37-9b0a-0a71c8111169">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">45.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-zrhdub</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-chocolate-truffles</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_71b094ae-1a1c-4660-9ea1-54228eba45da">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">33.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-zrhdub</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-champagne-375ml</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_4def5ad6-3fe0-4dec-b8d3-e518c216b09e">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">55.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-zrhdub</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-champagne-750ml</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_9874fa2a-b280-4afb-9554-15d5328417b3">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">0.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax1</TravelerReferences>
+								</AssociatedTraveler>
+								<IncludedService>
+									<ServiceReferences>serviceId-kosher-meal</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_9ec8be05-78de-41b8-8f7f-83dd534965f5">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">0.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax2</TravelerReferences>
+								</AssociatedTraveler>
+								<IncludedService>
+									<ServiceReferences>serviceId-kosher-meal</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_c71338c3-b4a8-4984-8133-081280437fc1">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">0.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax3</TravelerReferences>
+								</AssociatedTraveler>
+								<IncludedService>
+									<ServiceReferences>serviceId-kosher-meal</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_579a30a3-0886-4f8d-9107-f2f4020757e2">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">0.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax1</TravelerReferences>
+								</AssociatedTraveler>
+								<IncludedService>
+									<ServiceReferences>serviceId-baby-meal</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_ca4d4a67-467b-4118-911b-25658b133fe6">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">0.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax2</TravelerReferences>
+								</AssociatedTraveler>
+								<IncludedService>
+									<ServiceReferences>serviceId-baby-meal</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_b7a71af5-29a5-4ec8-9c08-5d6dcbf3054c">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">0.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax3</TravelerReferences>
+								</AssociatedTraveler>
+								<IncludedService>
+									<ServiceReferences>serviceId-baby-meal</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_e7937dac-f096-4b18-98ee-26c8fcc5a1b6">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">0.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax3</TravelerReferences>
+								</AssociatedTraveler>
+								<IncludedService>
+									<ServiceReferences>serviceId-baby-meal</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_e4ef3a30-055b-4e65-a3ea-10003fb307b3">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">10.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax1</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<FlightSegmentReference ref="flightsegment-dubzrh">
+										<Cabin>
+											<CabinDesignator>A</CabinDesignator>
+										</Cabin>
+									</FlightSegmentReference>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-standard-seat</ServiceReferences>
+								</IncludedService>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>Seat</Type>
+										<ReferenceValue>ID_1644fe65-705a-43d3-b4d5-8c56dec8b4c0</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_a9711fc5-74ef-4f07-ba5f-636467f8e532">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">10.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax2</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<FlightSegmentReference ref="flightsegment-dubzrh">
+										<Cabin>
+											<CabinDesignator>A</CabinDesignator>
+										</Cabin>
+									</FlightSegmentReference>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-standard-seat</ServiceReferences>
+								</IncludedService>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>Seat</Type>
+										<ReferenceValue>ID_1644fe65-705a-43d3-b4d5-8c56dec8b4c0</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_8d780267-93f1-4492-926f-aac37efac5d9">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">10.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax3</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<FlightSegmentReference ref="flightsegment-dubzrh">
+										<Cabin>
+											<CabinDesignator>A</CabinDesignator>
+										</Cabin>
+									</FlightSegmentReference>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-standard-seat</ServiceReferences>
+								</IncludedService>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>Seat</Type>
+										<ReferenceValue>ID_1644fe65-705a-43d3-b4d5-8c56dec8b4c0</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_c32e1cd3-1528-4549-aa06-d89fea5cc2db">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">17.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax1</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<FlightSegmentReference ref="flightsegment-dubzrh">
+										<Cabin>
+											<CabinDesignator>A</CabinDesignator>
+										</Cabin>
+									</FlightSegmentReference>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-standard-seat</ServiceReferences>
+								</IncludedService>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>Seat</Type>
+										<ReferenceValue>ID_e5f4e31e-fa48-4e26-a92c-edd487a95aa7</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_837c1549-0c92-4cfb-acd2-24f717367cad">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">17.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax2</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<FlightSegmentReference ref="flightsegment-dubzrh">
+										<Cabin>
+											<CabinDesignator>A</CabinDesignator>
+										</Cabin>
+									</FlightSegmentReference>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-standard-seat</ServiceReferences>
+								</IncludedService>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>Seat</Type>
+										<ReferenceValue>ID_e5f4e31e-fa48-4e26-a92c-edd487a95aa7</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_71aa2ff6-5ec2-47f9-815c-ae801ffe54e4">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">17.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax3</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<FlightSegmentReference ref="flightsegment-dubzrh">
+										<Cabin>
+											<CabinDesignator>A</CabinDesignator>
+										</Cabin>
+									</FlightSegmentReference>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-standard-seat</ServiceReferences>
+								</IncludedService>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>Seat</Type>
+										<ReferenceValue>ID_e5f4e31e-fa48-4e26-a92c-edd487a95aa7</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_91cbee32-6602-4cf5-890c-470bfe6727fe">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">10.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax1</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<FlightSegmentReference ref="flightsegment-dubzrh">
+										<Cabin>
+											<CabinDesignator>A</CabinDesignator>
+										</Cabin>
+									</FlightSegmentReference>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-standard-seat</ServiceReferences>
+								</IncludedService>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>Seat</Type>
+										<ReferenceValue>ID_1644fe65-705a-43d3-b4d5-8c56dec8b4c0</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_fbf849b2-7822-4f5b-9a6a-fb058e9d1add">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">10.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax2</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<FlightSegmentReference ref="flightsegment-dubzrh">
+										<Cabin>
+											<CabinDesignator>A</CabinDesignator>
+										</Cabin>
+									</FlightSegmentReference>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-standard-seat</ServiceReferences>
+								</IncludedService>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>Seat</Type>
+										<ReferenceValue>ID_1644fe65-705a-43d3-b4d5-8c56dec8b4c0</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_28a12a2e-e18e-48b9-9762-520ce299ae88">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">10.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax3</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<FlightSegmentReference ref="flightsegment-dubzrh">
+										<Cabin>
+											<CabinDesignator>A</CabinDesignator>
+										</Cabin>
+									</FlightSegmentReference>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-standard-seat</ServiceReferences>
+								</IncludedService>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>Seat</Type>
+										<ReferenceValue>ID_1644fe65-705a-43d3-b4d5-8c56dec8b4c0</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+				</PricedOffer>
+			</AirlineOffer>
+		</AirlineOffers>
+	</OffersGroup>
+	<DataLists>
+		<AnonymousTravelerList>
+			<AnonymousTraveler ObjectKey="pax1">
+				<PTC>ADT</PTC>
+			</AnonymousTraveler>
+			<AnonymousTraveler ObjectKey="pax2">
+				<PTC>ADT</PTC>
+			</AnonymousTraveler>
+			<AnonymousTraveler ObjectKey="pax3">
+				<PTC>CHD</PTC>
+			</AnonymousTraveler>
+			<AnonymousTraveler ObjectKey="pax4">
+				<PTC>INF</PTC>
+			</AnonymousTraveler>
+		</AnonymousTravelerList>
+		<CarryOnAllowanceList>
+			<CarryOnAllowance ListKey="ID_ee40a84f-35fa-48ad-a6a6-fd9c7208f8d5">
+				<PieceAllowance>
+					<ApplicableParty>Traveler</ApplicableParty>
+					<TotalQuantity>1</TotalQuantity>
+					<ApplicableBag>CarryOn</ApplicableBag>
+					<PieceMeasurements Quantity="1"/>
+				</PieceAllowance>
+			</CarryOnAllowance>
+		</CarryOnAllowanceList>
+		<CheckedBagAllowanceList>
+			<CheckedBagAllowance ListKey="ID_896f22fb-a661-4420-8e7e-992155bf1d9b">
+				<PieceAllowance>
+					<ApplicableParty>Traveler</ApplicableParty>
+					<TotalQuantity>1</TotalQuantity>
+					<ApplicableBag>First Bag</ApplicableBag>
+					<PieceMeasurements Quantity="1"/>
+				</PieceAllowance>
+			</CheckedBagAllowance>
+			<CheckedBagAllowance ListKey="ID_343ee6fc-830c-40b5-b3d0-18e63b121f62">
+				<PieceAllowance>
+					<ApplicableParty>Traveler</ApplicableParty>
+					<TotalQuantity>1</TotalQuantity>
+					<ApplicableBag>Additional Bag</ApplicableBag>
+					<PieceMeasurements Quantity="1"/>
+				</PieceAllowance>
+			</CheckedBagAllowance>
+		</CheckedBagAllowanceList>
+		<FareList>
+			<FareGroup ListKey="ID_11efc7dc-dec5-4bbc-a462-9893a7a7df1d">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">29.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAA</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">24.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAA</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_19503692-cb7f-4457-b2fd-14f3a36e7a89">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">16.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAC</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">14.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAC</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_63d4825e-ea3b-4264-80b4-e1dbcf5aea4c">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">2.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAI</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">3.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAI</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+		</FareList>
+		<FlightSegmentList>
+			<FlightSegment SegmentKey="flightsegment-dubzrh">
+				<Departure>
+					<AirportCode>DUB</AirportCode>
+					<Date>2016-05-12</Date>
+					<Time>11:15</Time>
+				</Departure>
+				<Arrival>
+					<AirportCode>ZRH</AirportCode>
+					<Date>2016-05-12</Date>
+					<Time>14:25</Time>
+				</Arrival>
+				<MarketingCarrier>
+					<AirlineID>LX</AirlineID>
+					<FlightNumber>401</FlightNumber>
+				</MarketingCarrier>
+			</FlightSegment>
+			<FlightSegment SegmentKey="flightsegment-zrhdub">
+				<Departure>
+					<AirportCode>ZRH</AirportCode>
+					<Date>2016-05-20</Date>
+					<Time>09:15</Time>
+				</Departure>
+				<Arrival>
+					<AirportCode>DUB</AirportCode>
+					<Date>2016-05-20</Date>
+					<Time>10:30</Time>
+				</Arrival>
+				<MarketingCarrier>
+					<AirlineID>LX</AirlineID>
+					<FlightNumber>400</FlightNumber>
+				</MarketingCarrier>
+			</FlightSegment>
+		</FlightSegmentList>
+		<FlightList>
+			<Flight FlightKey="flight-dubzrh">
+				<SegmentReferences>flightsegment-dubzrh</SegmentReferences>
+			</Flight>
+			<Flight FlightKey="flight-zrhdub">
+				<SegmentReferences>flightsegment-zrhdub</SegmentReferences>
+			</Flight>
+		</FlightList>
+		<OriginDestinationList>
+			<OriginDestination OriginDestinationKey="od-dubzrh">
+				<DepartureCode>DUB</DepartureCode>
+				<ArrivalCode>ZRH</ArrivalCode>
+				<FlightReferences>flight-dubzrh</FlightReferences>
+			</OriginDestination>
+			<OriginDestination OriginDestinationKey="od-zrhdub">
+				<DepartureCode>ZRH</DepartureCode>
+				<ArrivalCode>DUB</ArrivalCode>
+				<FlightReferences>flight-zrhdub</FlightReferences>
+			</OriginDestination>
+		</OriginDestinationList>
+		<PriceClassList>
+			<PriceClass ObjectKey="economy-light">
+				<Name>Economy Light</Name>
+				<Associations>
+					<Association>
+						<Type>ServiceBundle</Type>
+						<ReferenceValue>servicebundle-light</ReferenceValue>
+					</Association>
+				</Associations>
+			</PriceClass>
+		</PriceClassList>
+		<ServiceBundleList>
+			<ServiceBundle ListKey="servicebundle-light">
+				<ItemCount>3</ItemCount>
+				<Associations>
+					<ServiceReference>serviceId-snacks-and-beverages</ServiceReference>
+					<ServiceReference>serviceId-1-piece-hand-baggage</ServiceReference>
+					<ServiceReference>serviceId-125-miles</ServiceReference>
+				</Associations>
+				<BundleID>ECONOMYLIGHT</BundleID>
+				<BundleName>Economy Light</BundleName>
+			</ServiceBundle>
+		</ServiceBundleList>
+		<ServiceList>
+			<Service ObjectKey="serviceId-snacks-and-beverages">
+				<ServiceID Owner="LX">63a92905-121c-4db8-be1b-bf6fe4c902c0</ServiceID>
+				<Name>Snacks And Beverages</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>Snacks And Beverages</Text>
+					</Description>
+				</Descriptions>
+			</Service>
+			<Service ObjectKey="serviceId-1-piece-hand-baggage">
+				<ServiceID Owner="LX">71a01b16-d084-43b7-87be-2fca595472cf</ServiceID>
+				<Name>1 Piece Hand Baggage</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>1 Piece Hand Baggage</Text>
+					</Description>
+				</Descriptions>
+				<Associations>
+					<OtherAssociations>
+						<OtherAssociation>
+							<Type>CarryOnAllowance</Type>
+							<ReferenceValue>ID_ee40a84f-35fa-48ad-a6a6-fd9c7208f8d5</ReferenceValue>
+						</OtherAssociation>
+					</OtherAssociations>
+				</Associations>
+			</Service>
+			<Service ObjectKey="serviceId-125-miles">
+				<ServiceID Owner="LX">645e83ec-94fe-42bd-b309-2bc9d987888f</ServiceID>
+				<Name>125 Miles</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>125 Miles</Text>
+					</Description>
+				</Descriptions>
+			</Service>
+			<Service ObjectKey="serviceId-hold-booking">
+				<ServiceID Owner="LX">7c75867d-c507-4660-81fd-6bb8ee2510ee</ServiceID>
+				<Name>Secure booking for 72 hours</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>Secure booking for 72 hours</Text>
+					</Description>
+				</Descriptions>
+				<Price>
+					<Total Code="EUR">22.00</Total>
+				</Price>
+			</Service>
+			<Service ObjectKey="serviceId-first-checked-bag">
+				<ServiceID Owner="LX">c60fce3c-32a5-4764-be21-31b755a3e8af</ServiceID>
+				<Name>First Checked Bag</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>First Checked Bag</Text>
+					</Description>
+				</Descriptions>
+				<Price>
+					<Total Code="EUR">15.00</Total>
+				</Price>
+				<Associations>
+					<OtherAssociations>
+						<OtherAssociation>
+							<Type>CheckedBagAllowance</Type>
+							<ReferenceValue>ID_896f22fb-a661-4420-8e7e-992155bf1d9b</ReferenceValue>
+						</OtherAssociation>
+					</OtherAssociations>
+				</Associations>
+			</Service>
+			<Service ObjectKey="serviceId-additional-checked-bag">
+				<ServiceID Owner="LX">586d47cb-d6ef-47a3-b0da-7c88aac50b9f</ServiceID>
+				<Name>Additional Checked Bag</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>Additional Checked Bag</Text>
+					</Description>
+				</Descriptions>
+				<Price>
+					<Total Code="EUR">45.00</Total>
+				</Price>
+				<Associations>
+					<OtherAssociations>
+						<OtherAssociation>
+							<Type>CheckedBagAllowance</Type>
+							<ReferenceValue>ID_343ee6fc-830c-40b5-b3d0-18e63b121f62</ReferenceValue>
+						</OtherAssociation>
+					</OtherAssociations>
+				</Associations>
+			</Service>
+			<Service ObjectKey="serviceId-chocolate-pralines">
+				<ServiceID Owner="LX">b25e6625-3f04-4311-acdd-124146d14961</ServiceID>
+				<Name>Chocolate Pralines</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>Chocolate Pralines</Text>
+					</Description>
+				</Descriptions>
+				<Price>
+					<Total Code="EUR">23.00</Total>
+				</Price>
+			</Service>
+			<Service ObjectKey="serviceId-chocolate-truffles">
+				<ServiceID Owner="LX">85643632-cfd2-4cd5-a027-d98e87cafb75</ServiceID>
+				<Name>Chocolate Truffles</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>Chocolate Truffles</Text>
+					</Description>
+				</Descriptions>
+				<Price>
+					<Total Code="EUR">45.00</Total>
+				</Price>
+			</Service>
+			<Service ObjectKey="serviceId-champagne-375ml">
+				<ServiceID Owner="LX">fc635e74-de7a-4329-ae6e-c609ae57463e</ServiceID>
+				<Name>Champagne 375ml</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>Champagne 375ml</Text>
+					</Description>
+				</Descriptions>
+				<Price>
+					<Total Code="EUR">33.00</Total>
+				</Price>
+			</Service>
+			<Service ObjectKey="serviceId-champagne-750ml">
+				<ServiceID Owner="LX">55f88f42-3690-42b2-9a4e-3d7926c17032</ServiceID>
+				<Name>Champagne 750ml</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>Champagne 750ml</Text>
+					</Description>
+				</Descriptions>
+				<Price>
+					<Total Code="EUR">55.00</Total>
+				</Price>
+			</Service>
+			<Service ObjectKey="serviceId-kosher-meal">
+				<ServiceID Owner="LX">3c63b0d8-70a9-4b0e-8d39-9db7dc5ccb9a</ServiceID>
+				<Name>Kosher Meal</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>Kosher Meal</Text>
+					</Description>
+				</Descriptions>
+			</Service>
+			<Service ObjectKey="serviceId-baby-meal">
+				<ServiceID Owner="LX">ad281a81-c02f-4a9e-a1f3-8db6d8f6757e</ServiceID>
+				<Name>Baby Meal</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>Baby Meal</Text>
+					</Description>
+				</Descriptions>
+			</Service>
+			<Service ObjectKey="serviceId-upgrade-to-business-1a">
+				<ServiceID Owner="LX">7c75867d-c507-4660-81fd-6bb8ee2510ee</ServiceID>
+				<Name>Upgrade to Business</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>Upgrade to Business</Text>
+					</Description>
+				</Descriptions>
+				<Price>
+					<Total Code="EUR">33.00</Total>
+					<PassengerReferences>pax1</PassengerReferences>
+				</Price>
+				<Price>
+					<Total Code="EUR">33.00</Total>
+					<PassengerReferences>pax2</PassengerReferences>
+				</Price>
+				<Price>
+					<Total Code="EUR">21.00</Total>
+					<PassengerReferences>pax3</PassengerReferences>
+				</Price>
+				<Price>
+					<Total Code="EUR">2.00</Total>
+					<PassengerReferences>pax4</PassengerReferences>
+				</Price>
+			</Service>
+			<Service ObjectKey="serviceId-upgrade-to-business-1b">
+				<ServiceID Owner="LX">03fdc4a3-845d-441b-84bb-41278d7427a5</ServiceID>
+				<Name>Upgrade to Business</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>Upgrade to Business</Text>
+					</Description>
+				</Descriptions>
+				<Price>
+					<Total Code="EUR">57.00</Total>
+					<PassengerReferences>pax1</PassengerReferences>
+				</Price>
+				<Price>
+					<Total Code="EUR">57.00</Total>
+					<PassengerReferences>pax2</PassengerReferences>
+				</Price>
+				<Price>
+					<Total Code="EUR">28.00</Total>
+					<PassengerReferences>pax3</PassengerReferences>
+				</Price>
+				<Price>
+					<Total Code="EUR">8.00</Total>
+					<PassengerReferences>pax4</PassengerReferences>
+				</Price>
+			</Service>
+			<Service ObjectKey="serviceId-standard-seat">
+				<ServiceID Owner="LX">d260efdd-55a1-4bfd-afe5-f640050738b2</ServiceID>
+				<Name>Standard Seat</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>Standard Seat</Text>
+					</Description>
+				</Descriptions>
+				<Price>
+					<Total Code="EUR">10.00</Total>
+				</Price>
+			</Service>
+			<Service ObjectKey="serviceId-preferred-zone-seat">
+				<ServiceID Owner="LX">7701da38-6c57-4563-8fb9-54424bd979eb</ServiceID>
+				<Name>Preferred Zone Seat</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>Preferred Zone Seat</Text>
+					</Description>
+				</Descriptions>
+				<Price>
+					<Total Code="EUR">17.00</Total>
+				</Price>
+			</Service>
+		</ServiceList>
+		<SeatList>
+			<Seats ListKey="ID_e5f4e31e-fa48-4e26-a92c-edd487a95aa7" dlxavailabilitystatus:AvailabilityStatus="1">
+				<Location>
+					<Column>A</Column>
+					<Row>
+						<Number>6</Number>
+					</Row>
+				</Location>
+			</Seats>
+			<Seats ListKey="ID_1ecf7ff9-b54d-49fa-b83c-6565086681c7" dlxavailabilitystatus:AvailabilityStatus="3">
+				<Location>
+					<Column>B</Column>
+					<Row>
+						<Number>6</Number>
+					</Row>
+				</Location>
+			</Seats>
+			<Seats ListKey="ID_031df5de-9bf9-415d-a4f4-9ac49f4a4296" dlxavailabilitystatus:AvailabilityStatus="3">
+				<Location>
+					<Column>C</Column>
+					<Row>
+						<Number>6</Number>
+					</Row>
+				</Location>
+			</Seats>
+			<Seats ListKey="ID_5f7f5276-4965-427b-973e-d98bfeb8d5ae" dlxavailabilitystatus:AvailabilityStatus="3">
+				<Location>
+					<Column>D</Column>
+					<Row>
+						<Number>6</Number>
+					</Row>
+				</Location>
+			</Seats>
+			<Seats ListKey="ID_1644fe65-705a-43d3-b4d5-8c56dec8b4c0" dlxavailabilitystatus:AvailabilityStatus="1">
+				<Location>
+					<Column>A</Column>
+					<Row>
+						<Number>7</Number>
+					</Row>
+				</Location>
+			</Seats>
+			<Seats ListKey="ID_1793b59d-2fc4-4255-88ae-1be2a2b5657e" dlxavailabilitystatus:AvailabilityStatus="3">
+				<Location>
+					<Column>B</Column>
+					<Row>
+						<Number>7</Number>
+					</Row>
+				</Location>
+			</Seats>
+			<Seats ListKey="ID_5254abcf-b610-47a1-b7b3-bd86df6f0860" dlxavailabilitystatus:AvailabilityStatus="3">
+				<Location>
+					<Column>C</Column>
+					<Row>
+						<Number>7</Number>
+					</Row>
+				</Location>
+			</Seats>
+			<Seats ListKey="ID_915dc9cf-4941-480f-9bb4-60c51a6b80f7" dlxavailabilitystatus:AvailabilityStatus="3">
+				<Location>
+					<Column>D</Column>
+					<Row>
+						<Number>7</Number>
+					</Row>
+				</Location>
+			</Seats>
+		</SeatList>
+		<dlxseatmap:DlxExtension>
+			<dlxseatmap:SeatmapList>
+				<dlxseatmap:Seatmap>
+					<dlxseatmap:Cabins>
+						<SeatReference>ID_e5f4e31e-fa48-4e26-a92c-edd487a95aa7</SeatReference>
+						<SeatReference>ID_1ecf7ff9-b54d-49fa-b83c-6565086681c7</SeatReference>
+						<SeatReference>ID_031df5de-9bf9-415d-a4f4-9ac49f4a4296</SeatReference>
+						<SeatReference>ID_5f7f5276-4965-427b-973e-d98bfeb8d5ae</SeatReference>
+						<SeatReference>ID_1644fe65-705a-43d3-b4d5-8c56dec8b4c0</SeatReference>
+						<SeatReference>ID_1793b59d-2fc4-4255-88ae-1be2a2b5657e</SeatReference>
+						<SeatReference>ID_5254abcf-b610-47a1-b7b3-bd86df6f0860</SeatReference>
+						<SeatReference>ID_915dc9cf-4941-480f-9bb4-60c51a6b80f7</SeatReference>
+						<SegmentReference>flightsegment-dubzrh</SegmentReference>
+					</dlxseatmap:Cabins>
+				</dlxseatmap:Seatmap>
+			</dlxseatmap:SeatmapList>
+		</dlxseatmap:DlxExtension>
+	</DataLists>
+</AirShoppingRS>

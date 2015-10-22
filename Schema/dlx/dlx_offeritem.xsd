@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2012 rel. 2 sp1 (x64) (http://www.altova.com) by Eamonn.Moloney (Datalex Ireland Limited) -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dlxrequired="http://www.datalex.com/IATA/NDC/offeritem/required" targetNamespace="http://www.datalex.com/IATA/NDC/offeritem/required" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xsd:attribute name="Required" type="xsd:boolean">
+		<xsd:annotation>
+			<xsd:documentation source="description" xml:lang="en">When TRUE, this OfferItem must be selected for purchase for all other OfferItems to be valid. E.g. An Offer with Air product + Chocolate Cake ancillary. The Chocolate Cake is not valid unless the Air product is selected</xsd:documentation>
+		</xsd:annotation>
+	</xsd:attribute>
+	<xsd:attribute name="ObjectKey" type="xsd:ID">
+		<xsd:annotation>
+			<xsd:documentation>Object globally unique instance ID e.g. obj1</xsd:documentation>
+		</xsd:annotation>
+	</xsd:attribute>
+</xsd:schema>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2012 rel. 2 sp1 (x64) (http://www.altova.com) by Eamonn.Moloney (Datalex Ireland Limited) -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dlxallowed="http://www.datalex.com/IATA/NDC/allowed" targetNamespace="http://www.datalex.com/IATA/NDC/allowed" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xsd:attribute name="Allowed" type="xsd:boolean">
+		<xsd:annotation>
+			<xsd:documentation source="description" xml:lang="en">Boolean value to indicate wether this change/cancel is allowed</xsd:documentation>
+		</xsd:annotation>
+	</xsd:attribute>
+</xsd:schema>

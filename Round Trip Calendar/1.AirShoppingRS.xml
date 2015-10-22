@@ -1,0 +1,4266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2012 rel. 2 sp1 (x64) (http://www.altova.com) by Eamonn.Moloney (Datalex Ireland Limited) -->
+<AirShoppingRS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ../Schema/AirShoppingRS.xsd" xmlns="http://www.iata.org/IATA/EDIST" Version="15.2" xmlns:dlxofferitem="http://www.datalex.com/IATA/NDC/offeritem/required" xmlns:dlxpriceclassreference="http://www.datalex.com/IATA/NDC/priceclassreference" xmlns:dlxlanguage="http://www.datalex.com/IATA/NDC/language" xmlns:dlxallowed="http://www.datalex.com/IATA/NDC/allowed" xmlns:dlxofferreference="http://www.datalex.com/IATA/NDC/offerreference">
+	<Document>
+		<ReferenceVersion>15.2</ReferenceVersion>
+	</Document>
+	<Success/>
+	<AirShoppingProcessing/>
+	<OffersGroup>
+		<AirlineOffers>
+			<AirlineOffer ObjectKey="ID_65bb8d3d-e247-4196-93a1-ebf721896cbc">
+				<OfferID Owner="LX">2ce78926-dac7-4fd1-a9d6-bf3a12d41079</OfferID>
+				<PricedOffer>
+					<OfferPrice OfferItemID="ID_989addd3-1e25-400a-8606-5ff2e63c9957" dlxofferitem:Required="true">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">141.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax1</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-11 od-zrhdub-2015-12-19</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_11efc7dc-dec5-4bbc-a462-9893a7a7df1d</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax2</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-11 od-zrhdub-2015-12-19</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_11efc7dc-dec5-4bbc-a462-9893a7a7df1d</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax3</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-11 od-zrhdub-2015-12-19</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_19503692-cb7f-4457-b2fd-14f3a36e7a89</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax4</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-11 od-zrhdub-2015-12-19</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_63d4825e-ea3b-4264-80b4-e1dbcf5aea4c</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_5e5aac72-363e-4ab6-bcfb-6e2c2ab8fcbc">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">22.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<IncludedService>
+									<ServiceReferences>serviceId-hold-booking</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_97058933-853c-48fd-8e7f-420bc2aed597">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">89.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-11</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-upgrade-to-business-1a</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_db9098b4-aa0b-4e63-829f-edb5ee73f3f6">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">150.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-zrhdub-2015-12-19</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-upgrade-to-business-1b</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+				</PricedOffer>
+			</AirlineOffer>
+			<AirlineOffer ObjectKey="ID_79123a82-dbc6-4f18-8573-385332b86925">
+				<OfferID Owner="LX">b6942ed9-7831-4ca1-988e-38678939b2e8</OfferID>
+				<PricedOffer>
+					<OfferPrice OfferItemID="ID_5abee002-24a6-498c-934b-c1ce23f557e6" dlxofferitem:Required="true">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">141.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax1</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-12 od-zrhdub-2015-12-19</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_fb73d78b-984a-47ee-a715-bfdf8d26e43a</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax2</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-12 od-zrhdub-2015-12-19</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_fb73d78b-984a-47ee-a715-bfdf8d26e43a</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax3</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-12 od-zrhdub-2015-12-19</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_4fb23207-9a4e-433f-8a38-bd3f81a4c1cc</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax4</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-12 od-zrhdub-2015-12-19</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_ffad5a91-d793-4bed-8788-391c73b3efe9</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_ff8ab216-39f3-4d4a-a3ac-e119a6c149d8">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">22.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<IncludedService>
+									<ServiceReferences>serviceId-hold-booking</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_498b0b5a-4fae-462f-812a-ce912ec36352">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">89.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-12</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-upgrade-to-business-1a</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_86028de3-0295-4ca7-9dc1-3970f6db7357">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">150.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-zrhdub-2015-12-19</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-upgrade-to-business-1b</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+				</PricedOffer>
+			</AirlineOffer>
+			<AirlineOffer ObjectKey="ID_95366e3b-6a4d-4adf-8a17-ce989b714b37">
+				<OfferID Owner="LX">804deab7-2ebf-4f67-9af0-086e300e1836</OfferID>
+				<PricedOffer>
+					<OfferPrice OfferItemID="ID_cb090260-618d-45f2-90fc-16348c2b5e7a" dlxofferitem:Required="true">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">141.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax1</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-13 od-zrhdub-2015-12-19</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_5954cd1a-653e-44cf-88fb-e40c5d641ecd</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax2</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-13 od-zrhdub-2015-12-19</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_5954cd1a-653e-44cf-88fb-e40c5d641ecd</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax3</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-13 od-zrhdub-2015-12-19</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_5ac04d07-bd7b-41d6-af30-f2e6fd1ffe27</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax4</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-13 od-zrhdub-2015-12-19</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_c5a33f83-2324-4a3b-b3af-d09889cb8c2a</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_b6f53e02-5c38-46e9-a732-e49c5ffc19cb">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">22.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<IncludedService>
+									<ServiceReferences>serviceId-hold-booking</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_69cf1987-4fc8-4ae8-a777-f1e627383073">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">89.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-13</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-upgrade-to-business-1a</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_b087d02a-675d-4483-8249-72ff268dbcbf">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">150.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-zrhdub-2015-12-19</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-upgrade-to-business-1b</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+				</PricedOffer>
+			</AirlineOffer>
+			<AirlineOffer ObjectKey="ID_0d601975-447e-4de3-81a2-0a3f059317f5">
+				<OfferID Owner="LX">08f1bd2d-e859-4cb9-bff0-89183f1ff02e</OfferID>
+				<PricedOffer>
+					<OfferPrice OfferItemID="ID_f621b98a-3a26-454a-a3a4-7c2ae289ae68" dlxofferitem:Required="true">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">141.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax1</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-11 od-zrhdub-2015-12-20</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_e90121c5-cf4c-4a07-9c5f-0799170d49f9</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax2</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-11 od-zrhdub-2015-12-20</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_e90121c5-cf4c-4a07-9c5f-0799170d49f9</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax3</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-11 od-zrhdub-2015-12-20</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_9c6cf083-37e2-4cff-ae7a-daf06ae62ace</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax4</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-11 od-zrhdub-2015-12-20</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_a3f432ba-332e-4bf7-a6c6-08b28ab2f996</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_c1a75a80-6174-461c-9eab-3abed0e9d331">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">22.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<IncludedService>
+									<ServiceReferences>serviceId-hold-booking</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_c95b6ae7-2f90-477d-8d53-e307bef6227e">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">89.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-11</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-upgrade-to-business-1a</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_7cce0ded-cd66-44d2-b11d-a0c4c4f93d2a">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">150.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-zrhdub-2015-12-20</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-upgrade-to-business-1b</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+				</PricedOffer>
+			</AirlineOffer>
+			<AirlineOffer ObjectKey="ID_c87fc0b4-c7d8-47a8-b7de-c4918c47815f">
+				<OfferID Owner="LX">1ced9f08-090c-4762-aace-fd3b51e8cadf</OfferID>
+				<PricedOffer>
+					<OfferPrice OfferItemID="ID_7b4aa9bf-8fd0-476e-a59c-97805125310d" dlxofferitem:Required="true">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">141.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax1</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-12 od-zrhdub-2015-12-20</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_b3f709a5-2952-4c7c-b559-73a5d76db33b</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax2</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-12 od-zrhdub-2015-12-20</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_b3f709a5-2952-4c7c-b559-73a5d76db33b</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax3</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-12 od-zrhdub-2015-12-20</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_09c0a573-e506-4ebc-8f7b-4ab0c8576b51</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax4</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-12 od-zrhdub-2015-12-20</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_38c2fd16-dab7-42a5-8080-b5359225551a</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_00f8586c-c6e3-4d12-b92a-704cec4637db">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">22.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<IncludedService>
+									<ServiceReferences>serviceId-hold-booking</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_17febf38-3cda-40b2-ad97-a367e34e261e">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">89.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-12</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-upgrade-to-business-1a</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_a71f4a25-1af9-4fdd-bead-804d4f4f2043">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">150.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-zrhdub-2015-12-20</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-upgrade-to-business-1b</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+				</PricedOffer>
+			</AirlineOffer>
+			<AirlineOffer ObjectKey="ID_b34a6c51-383f-4013-9772-75a554337976">
+				<OfferID Owner="LX">f868dea2-eacc-494b-a96d-0944ef43e369</OfferID>
+				<PricedOffer>
+					<OfferPrice OfferItemID="ID_0f6c2688-8c97-4a7d-9453-d1eb211ad4ea" dlxofferitem:Required="true">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">141.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax1</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-13 od-zrhdub-2015-12-20</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_0c23f500-86ca-477f-85e9-f4c43fb44fcb</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax2</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-13 od-zrhdub-2015-12-20</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_0c23f500-86ca-477f-85e9-f4c43fb44fcb</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax3</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-13 od-zrhdub-2015-12-20</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_d7184141-aa90-41ab-85cd-8e95662b49bb</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax4</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-13 od-zrhdub-2015-12-20</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_e73f3ae0-370d-4cb9-8654-7c8d6a70e62f</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_e37cfd1b-573c-4c65-a239-bd11ae6c4e6e">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">22.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<IncludedService>
+									<ServiceReferences>serviceId-hold-booking</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_1ab3aead-d0ae-4c81-a272-da5111b950ec">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">89.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-13</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-upgrade-to-business-1a</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_0dec7c1a-3d50-4a72-9db8-3161b1f6de9a">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">150.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-zrhdub-2015-12-20</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-upgrade-to-business-1b</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+				</PricedOffer>
+			</AirlineOffer>
+			<AirlineOffer ObjectKey="ID_fc5bd2a6-b7df-44da-8d97-3eca1fed7366">
+				<OfferID Owner="LX">51a1065a-10f0-4eab-b339-4fb51b07d474</OfferID>
+				<PricedOffer>
+					<OfferPrice OfferItemID="ID_102ca4c6-dc87-4f1b-bbf8-7ac585f89df9" dlxofferitem:Required="true">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">141.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax1</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-11 od-zrhdub-2015-12-21</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_1a69214f-c7d8-40f8-a378-1325fb686336</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax2</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-11 od-zrhdub-2015-12-21</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_1a69214f-c7d8-40f8-a378-1325fb686336</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax3</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-11 od-zrhdub-2015-12-21</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_7e6eb40c-1f6d-458c-bdda-b51366c26477</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax4</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-11 od-zrhdub-2015-12-21</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_0f09d8c9-ceb9-4794-a8d4-bb2f327fc937</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_7d85bbcb-ad44-40dd-83fc-7cab40788a8b">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">22.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<IncludedService>
+									<ServiceReferences>serviceId-hold-booking</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_d5773d4d-d0c0-4afa-b98d-229daa84a99d">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">89.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-11</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-upgrade-to-business-1a</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_551553ab-b910-4e97-8a90-de2322f33019">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">150.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-zrhdub-2015-12-21</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-upgrade-to-business-1b</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+				</PricedOffer>
+			</AirlineOffer>
+			<AirlineOffer ObjectKey="ID_23f6a8e3-4b86-4c73-9228-ed763d8d082a">
+				<OfferID Owner="LX">7790f4cb-e932-436f-8986-2c37d9409583</OfferID>
+				<PricedOffer>
+					<OfferPrice OfferItemID="ID_a29d140b-87e6-488f-ab09-06cc478e24e6" dlxofferitem:Required="true">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">141.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax1</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-12 od-zrhdub-2015-12-21</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_69bcf944-0fff-4fc0-aa09-2eb55c530663</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax2</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-12 od-zrhdub-2015-12-21</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_69bcf944-0fff-4fc0-aa09-2eb55c530663</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax3</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-12 od-zrhdub-2015-12-21</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_78525009-2dbc-4062-9efc-a982e48ceb5b</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax4</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-12 od-zrhdub-2015-12-21</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_3b20a8e1-e3bc-468c-9a45-a8727efb9072</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_d0bb73a3-2e0f-4b2d-b68c-d4e4e8516302">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">22.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<IncludedService>
+									<ServiceReferences>serviceId-hold-booking</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_c114bb22-88ed-4952-b446-52f28ebbf26b">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">89.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-12</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-upgrade-to-business-1a</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_d0dfbf57-9c84-425f-87a1-baaea1df4a81">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">150.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-zrhdub-2015-12-21</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-upgrade-to-business-1b</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+				</PricedOffer>
+			</AirlineOffer>
+			<AirlineOffer ObjectKey="ID_ea2a1840-d8fe-4bd9-ba78-e1385214010f">
+				<OfferID Owner="LX">f93a358c-0ea1-4c50-93a8-bb43e969116e</OfferID>
+				<PricedOffer>
+					<OfferPrice OfferItemID="ID_c41a6268-9d28-4b69-949f-f53a25f1afd7" dlxofferitem:Required="true">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">141.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax1</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-13 od-zrhdub-2015-12-21</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_4cacad05-9645-4a37-8917-d7d100a22f06</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax2</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-13 od-zrhdub-2015-12-21</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_4cacad05-9645-4a37-8917-d7d100a22f06</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax3</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-13 od-zrhdub-2015-12-21</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_568c2425-b0ae-4469-a654-e62cc3b623d9</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+							<Associations>
+								<AssociatedTraveler>
+									<TravelerReferences>pax4</TravelerReferences>
+								</AssociatedTraveler>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-13 od-zrhdub-2015-12-21</OriginDestinationReferences>
+								</ApplicableFlight>
+								<OtherAssociation>
+									<OtherAssociation>
+										<Type>FareGroup</Type>
+										<ReferenceValue>ID_4c376675-7f0b-44af-a7a6-d680613d154f</ReferenceValue>
+									</OtherAssociation>
+								</OtherAssociation>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_29117d17-8a0b-4cfe-b7ce-b5c43a9836b9">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">22.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<IncludedService>
+									<ServiceReferences>serviceId-hold-booking</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_41542ce9-76f3-4049-a064-3c3a9fbda36c">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">89.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-dubzrh-2015-12-13</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-upgrade-to-business-1a</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+					<OfferPrice OfferItemID="ID_f547d4cf-ba49-422e-b7fb-e1c826c28c66">
+						<RequestedDate>
+							<PriceDetail>
+								<BaseAmount Code="EUR">150.00</BaseAmount>
+							</PriceDetail>
+							<Associations>
+								<ApplicableFlight>
+									<OriginDestinationReferences>od-zrhdub-2015-12-21</OriginDestinationReferences>
+								</ApplicableFlight>
+								<IncludedService>
+									<ServiceReferences>serviceId-upgrade-to-business-1b</ServiceReferences>
+								</IncludedService>
+							</Associations>
+						</RequestedDate>
+					</OfferPrice>
+				</PricedOffer>
+			</AirlineOffer>
+			<PriceCalendar>
+				<PriceCalendarDate>2015-12-11</PriceCalendarDate>
+				<PriceCalendarDate>2015-12-19</PriceCalendarDate>
+				<TotalPrice Code="EUR">141.00</TotalPrice>
+				<dlxofferreference:DlxExtension>
+					<OfferReference>ID_65bb8d3d-e247-4196-93a1-ebf721896cbc</OfferReference>
+				</dlxofferreference:DlxExtension>
+			</PriceCalendar>
+			<PriceCalendar>
+				<PriceCalendarDate>2015-12-12</PriceCalendarDate>
+				<PriceCalendarDate>2015-12-19</PriceCalendarDate>
+				<TotalPrice Code="EUR">141.00</TotalPrice>
+				<dlxofferreference:DlxExtension>
+					<OfferReference>ID_79123a82-dbc6-4f18-8573-385332b86925</OfferReference>
+				</dlxofferreference:DlxExtension>
+			</PriceCalendar>
+			<PriceCalendar>
+				<PriceCalendarDate>2015-12-13</PriceCalendarDate>
+				<PriceCalendarDate>2015-12-19</PriceCalendarDate>
+				<TotalPrice Code="EUR">141.00</TotalPrice>
+				<dlxofferreference:DlxExtension>
+					<OfferReference>ID_95366e3b-6a4d-4adf-8a17-ce989b714b37</OfferReference>
+				</dlxofferreference:DlxExtension>
+			</PriceCalendar>
+			<PriceCalendar>
+				<PriceCalendarDate>2015-12-11</PriceCalendarDate>
+				<PriceCalendarDate>2015-12-20</PriceCalendarDate>
+				<TotalPrice Code="EUR">141.00</TotalPrice>
+				<dlxofferreference:DlxExtension>
+					<OfferReference>ID_0d601975-447e-4de3-81a2-0a3f059317f5</OfferReference>
+				</dlxofferreference:DlxExtension>
+			</PriceCalendar>
+			<PriceCalendar>
+				<PriceCalendarDate>2015-12-12</PriceCalendarDate>
+				<PriceCalendarDate>2015-12-20</PriceCalendarDate>
+				<TotalPrice Code="EUR">141.00</TotalPrice>
+				<dlxofferreference:DlxExtension>
+					<OfferReference>ID_c87fc0b4-c7d8-47a8-b7de-c4918c47815f</OfferReference>
+				</dlxofferreference:DlxExtension>
+			</PriceCalendar>
+			<PriceCalendar>
+				<PriceCalendarDate>2015-12-13</PriceCalendarDate>
+				<PriceCalendarDate>2015-12-20</PriceCalendarDate>
+				<TotalPrice Code="EUR">141.00</TotalPrice>
+				<dlxofferreference:DlxExtension>
+					<OfferReference>ID_b34a6c51-383f-4013-9772-75a554337976</OfferReference>
+				</dlxofferreference:DlxExtension>
+			</PriceCalendar>
+			<PriceCalendar>
+				<PriceCalendarDate>2015-12-11</PriceCalendarDate>
+				<PriceCalendarDate>2015-12-21</PriceCalendarDate>
+				<TotalPrice Code="EUR">141.00</TotalPrice>
+				<dlxofferreference:DlxExtension>
+					<OfferReference>ID_fc5bd2a6-b7df-44da-8d97-3eca1fed7366</OfferReference>
+				</dlxofferreference:DlxExtension>
+			</PriceCalendar>
+			<PriceCalendar>
+				<PriceCalendarDate>2015-12-12</PriceCalendarDate>
+				<PriceCalendarDate>2015-12-21</PriceCalendarDate>
+				<TotalPrice Code="EUR">141.00</TotalPrice>
+				<dlxofferreference:DlxExtension>
+					<OfferReference>ID_23f6a8e3-4b86-4c73-9228-ed763d8d082a</OfferReference>
+				</dlxofferreference:DlxExtension>
+			</PriceCalendar>
+			<PriceCalendar>
+				<PriceCalendarDate>2015-12-13</PriceCalendarDate>
+				<PriceCalendarDate>2015-12-21</PriceCalendarDate>
+				<TotalPrice Code="EUR">141.00</TotalPrice>
+				<dlxofferreference:DlxExtension>
+					<OfferReference>ID_ea2a1840-d8fe-4bd9-ba78-e1385214010f</OfferReference>
+				</dlxofferreference:DlxExtension>
+			</PriceCalendar>
+		</AirlineOffers>
+	</OffersGroup>
+	<DataLists>
+		<AnonymousTravelerList>
+			<AnonymousTraveler ObjectKey="pax1">
+				<PTC>ADT</PTC>
+			</AnonymousTraveler>
+			<AnonymousTraveler ObjectKey="pax2">
+				<PTC>ADT</PTC>
+			</AnonymousTraveler>
+			<AnonymousTraveler ObjectKey="pax3">
+				<PTC>CHD</PTC>
+			</AnonymousTraveler>
+			<AnonymousTraveler ObjectKey="pax4">
+				<PTC>INF</PTC>
+			</AnonymousTraveler>
+		</AnonymousTravelerList>
+		<FareList>
+			<FareGroup ListKey="ID_11efc7dc-dec5-4bbc-a462-9893a7a7df1d">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-11</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">29.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAA</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-19</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">24.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAA</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_19503692-cb7f-4457-b2fd-14f3a36e7a89">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-11</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">16.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAC</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-19</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">14.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAC</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_63d4825e-ea3b-4264-80b4-e1dbcf5aea4c">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-11</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">2.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAI</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-19</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">3.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAI</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_fb73d78b-984a-47ee-a715-bfdf8d26e43a">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-12</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">29.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAA</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-19</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">24.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAA</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_4fb23207-9a4e-433f-8a38-bd3f81a4c1cc">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-12</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">16.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAC</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-19</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">14.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAC</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_ffad5a91-d793-4bed-8788-391c73b3efe9">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-12</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">2.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAI</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-19</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">3.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAI</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_5954cd1a-653e-44cf-88fb-e40c5d641ecd">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-13</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">29.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAA</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-19</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">24.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAA</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_5ac04d07-bd7b-41d6-af30-f2e6fd1ffe27">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-13</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">16.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAC</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-19</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">14.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAC</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_c5a33f83-2324-4a3b-b3af-d09889cb8c2a">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-13</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">2.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAI</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-19</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">3.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAI</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_e90121c5-cf4c-4a07-9c5f-0799170d49f9">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-11</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">29.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAA</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-20</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">24.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAA</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_9c6cf083-37e2-4cff-ae7a-daf06ae62ace">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-11</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">16.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAC</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-20</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">14.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAC</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_a3f432ba-332e-4bf7-a6c6-08b28ab2f996">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-11</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">2.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAI</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-20</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">3.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAI</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_b3f709a5-2952-4c7c-b559-73a5d76db33b">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-12</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">29.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAA</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-20</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">24.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAA</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_09c0a573-e506-4ebc-8f7b-4ab0c8576b51">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-12</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">16.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAC</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-20</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">14.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAC</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_38c2fd16-dab7-42a5-8080-b5359225551a">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-12</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">2.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAI</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-20</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">3.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAI</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_0c23f500-86ca-477f-85e9-f4c43fb44fcb">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-13</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">29.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAA</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-20</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">24.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAA</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_d7184141-aa90-41ab-85cd-8e95662b49bb">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-13</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">16.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAC</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-20</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">14.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAC</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_e73f3ae0-370d-4cb9-8654-7c8d6a70e62f">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-13</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">2.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAI</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-20</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">3.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAI</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_1a69214f-c7d8-40f8-a378-1325fb686336">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-11</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">29.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAA</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-21</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">24.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAA</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_7e6eb40c-1f6d-458c-bdda-b51366c26477">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-11</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">16.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAC</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-21</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">14.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAC</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_0f09d8c9-ceb9-4794-a8d4-bb2f327fc937">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-11</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">2.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAI</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-21</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">3.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAI</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_69bcf944-0fff-4fc0-aa09-2eb55c530663">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-12</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">29.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAA</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-21</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">24.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAA</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_78525009-2dbc-4062-9efc-a982e48ceb5b">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-12</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">16.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAC</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-21</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">14.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAC</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_3b20a8e1-e3bc-468c-9a45-a8727efb9072">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-12</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">2.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAI</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-21</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">3.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAI</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_4cacad05-9645-4a37-8917-d7d100a22f06">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-13</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">29.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAA</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-21</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">24.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAA</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_568c2425-b0ae-4469-a654-e62cc3b623d9">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-13</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">16.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAC</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-21</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">14.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAC</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+			<FareGroup ListKey="ID_4c376675-7f0b-44af-a7a6-d680613d154f">
+				<Fare>
+					<FareCode>
+						<Code>001</Code>
+					</FareCode>
+					<FareDetail>
+						<FareComponent>
+							<SegmentReference>flightsegment-dubzrh-2015-12-13</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">2.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAI</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+						<FareComponent>
+							<SegmentReference>flightsegment-zrhdub-2015-12-21</SegmentReference>
+							<PriceBreakdown>
+								<Price>
+									<BaseAmount Code="EUR">3.00</BaseAmount>
+								</Price>
+							</PriceBreakdown>
+							<FareBasis>
+								<FareBasisCode>
+									<Code>GLGTAI</Code>
+								</FareBasisCode>
+							</FareBasis>
+							<FareRules>
+								<Penalty>
+									<Details>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Change</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+										<Detail dlxallowed:Allowed="true">
+											<Type>Cancellation</Type>
+											<Application>
+												<Code>Anytime</Code>
+											</Application>
+											<Amounts>
+												<Amount>
+													<CurrencyAmountValue Code="CHF">0.00</CurrencyAmountValue>
+												</Amount>
+											</Amounts>
+										</Detail>
+									</Details>
+								</Penalty>
+							</FareRules>
+							<dlxpriceclassreference:DlxExtension>
+								<PriceClassReference>economy-light</PriceClassReference>
+							</dlxpriceclassreference:DlxExtension>
+						</FareComponent>
+					</FareDetail>
+				</Fare>
+				<FareBasisCode>
+					<Code>001</Code>
+				</FareBasisCode>
+			</FareGroup>
+		</FareList>
+		<FlightSegmentList>
+			<FlightSegment SegmentKey="flightsegment-dubzrh-2015-12-11">
+				<Departure>
+					<AirportCode>DUB</AirportCode>
+					<Date>2016-05-11</Date>
+					<Time>11:15</Time>
+				</Departure>
+				<Arrival>
+					<AirportCode>ZRH</AirportCode>
+					<Date>2016-05-11</Date>
+					<Time>14:25</Time>
+				</Arrival>
+				<MarketingCarrier>
+					<AirlineID>LX</AirlineID>
+					<FlightNumber>401</FlightNumber>
+				</MarketingCarrier>
+			</FlightSegment>
+			<FlightSegment SegmentKey="flightsegment-dubzrh-2015-12-12">
+				<Departure>
+					<AirportCode>DUB</AirportCode>
+					<Date>2016-05-12</Date>
+					<Time>11:15</Time>
+				</Departure>
+				<Arrival>
+					<AirportCode>ZRH</AirportCode>
+					<Date>2016-05-12</Date>
+					<Time>14:25</Time>
+				</Arrival>
+				<MarketingCarrier>
+					<AirlineID>LX</AirlineID>
+					<FlightNumber>401</FlightNumber>
+				</MarketingCarrier>
+			</FlightSegment>
+			<FlightSegment SegmentKey="flightsegment-dubzrh-2015-12-13">
+				<Departure>
+					<AirportCode>DUB</AirportCode>
+					<Date>2016-05-13</Date>
+					<Time>11:15</Time>
+				</Departure>
+				<Arrival>
+					<AirportCode>ZRH</AirportCode>
+					<Date>2016-05-13</Date>
+					<Time>14:25</Time>
+				</Arrival>
+				<MarketingCarrier>
+					<AirlineID>LX</AirlineID>
+					<FlightNumber>401</FlightNumber>
+				</MarketingCarrier>
+			</FlightSegment>
+			<FlightSegment SegmentKey="flightsegment-zrhdub-2015-12-19">
+				<Departure>
+					<AirportCode>ZRH</AirportCode>
+					<Date>2016-05-19</Date>
+					<Time>09:15</Time>
+				</Departure>
+				<Arrival>
+					<AirportCode>DUB</AirportCode>
+					<Date>2016-05-19</Date>
+					<Time>10:30</Time>
+				</Arrival>
+				<MarketingCarrier>
+					<AirlineID>LX</AirlineID>
+					<FlightNumber>400</FlightNumber>
+				</MarketingCarrier>
+			</FlightSegment>
+			<FlightSegment SegmentKey="flightsegment-zrhdub-2015-12-20">
+				<Departure>
+					<AirportCode>ZRH</AirportCode>
+					<Date>2016-05-20</Date>
+					<Time>09:15</Time>
+				</Departure>
+				<Arrival>
+					<AirportCode>DUB</AirportCode>
+					<Date>2016-05-20</Date>
+					<Time>10:30</Time>
+				</Arrival>
+				<MarketingCarrier>
+					<AirlineID>LX</AirlineID>
+					<FlightNumber>400</FlightNumber>
+				</MarketingCarrier>
+			</FlightSegment>
+			<FlightSegment SegmentKey="flightsegment-zrhdub-2015-12-21">
+				<Departure>
+					<AirportCode>ZRH</AirportCode>
+					<Date>2016-05-21</Date>
+					<Time>09:15</Time>
+				</Departure>
+				<Arrival>
+					<AirportCode>DUB</AirportCode>
+					<Date>2016-05-21</Date>
+					<Time>10:30</Time>
+				</Arrival>
+				<MarketingCarrier>
+					<AirlineID>LX</AirlineID>
+					<FlightNumber>400</FlightNumber>
+				</MarketingCarrier>
+			</FlightSegment>
+		</FlightSegmentList>
+		<FlightList>
+			<Flight FlightKey="flight-dubzrh-2015-12-11">
+				<SegmentReferences>flightsegment-dubzrh-2015-12-11</SegmentReferences>
+			</Flight>
+			<Flight FlightKey="flight-dubzrh-2015-12-12">
+				<SegmentReferences>flightsegment-dubzrh-2015-12-12</SegmentReferences>
+			</Flight>
+			<Flight FlightKey="flight-dubzrh-2015-12-13">
+				<SegmentReferences>flightsegment-dubzrh-2015-12-13</SegmentReferences>
+			</Flight>
+			<Flight FlightKey="flight-zrhdub-2015-12-19">
+				<SegmentReferences>flightsegment-zrhdub-2015-12-19</SegmentReferences>
+			</Flight>
+			<Flight FlightKey="flight-zrhdub-2015-12-20">
+				<SegmentReferences>flightsegment-zrhdub-2015-12-20</SegmentReferences>
+			</Flight>
+			<Flight FlightKey="flight-zrhdub-2015-12-21">
+				<SegmentReferences>flightsegment-zrhdub-2015-12-21</SegmentReferences>
+			</Flight>
+		</FlightList>
+		<OriginDestinationList>
+			<OriginDestination OriginDestinationKey="od-dubzrh-2015-12-11">
+				<DepartureCode>DUB</DepartureCode>
+				<ArrivalCode>ZRH</ArrivalCode>
+				<FlightReferences>flight-dubzrh-2015-12-11</FlightReferences>
+			</OriginDestination>
+			<OriginDestination OriginDestinationKey="od-dubzrh-2015-12-12">
+				<DepartureCode>DUB</DepartureCode>
+				<ArrivalCode>ZRH</ArrivalCode>
+				<FlightReferences>flight-dubzrh-2015-12-12</FlightReferences>
+			</OriginDestination>
+			<OriginDestination OriginDestinationKey="od-dubzrh-2015-12-13">
+				<DepartureCode>DUB</DepartureCode>
+				<ArrivalCode>ZRH</ArrivalCode>
+				<FlightReferences>flight-dubzrh-2015-12-13</FlightReferences>
+			</OriginDestination>
+			<OriginDestination OriginDestinationKey="od-zrhdub-2015-12-19">
+				<DepartureCode>ZRH</DepartureCode>
+				<ArrivalCode>DUB</ArrivalCode>
+				<FlightReferences>flight-zrhdub-2015-12-19</FlightReferences>
+			</OriginDestination>
+			<OriginDestination OriginDestinationKey="od-zrhdub-2015-12-20">
+				<DepartureCode>ZRH</DepartureCode>
+				<ArrivalCode>DUB</ArrivalCode>
+				<FlightReferences>flight-zrhdub-2015-12-20</FlightReferences>
+			</OriginDestination>
+			<OriginDestination OriginDestinationKey="od-zrhdub-2015-12-21">
+				<DepartureCode>ZRH</DepartureCode>
+				<ArrivalCode>DUB</ArrivalCode>
+				<FlightReferences>flight-zrhdub-2015-12-21</FlightReferences>
+			</OriginDestination>
+		</OriginDestinationList>
+		<PriceClassList>
+			<PriceClass ObjectKey="economy-light">
+				<Name>Economy Light</Name>
+				<Associations>
+					<Association>
+						<Type>ServiceBundle</Type>
+						<ReferenceValue>servicebundle-light</ReferenceValue>
+					</Association>
+				</Associations>
+			</PriceClass>
+			<PriceClass ObjectKey="economy-classic">
+				<Name>Economy Classic</Name>
+				<Associations>
+					<Association>
+						<Type>ServiceBundle</Type>
+						<ReferenceValue>servicebundle-classic</ReferenceValue>
+					</Association>
+				</Associations>
+			</PriceClass>
+			<PriceClass ObjectKey="economy-flex">
+				<Name>Economy Flex</Name>
+				<Associations>
+					<Association>
+						<Type>ServiceBundle</Type>
+						<ReferenceValue>servicebundle-flex</ReferenceValue>
+					</Association>
+				</Associations>
+			</PriceClass>
+		</PriceClassList>
+		<ServiceBundleList>
+			<ServiceBundle ListKey="servicebundle-light">
+				<ItemCount>3</ItemCount>
+				<Associations>
+					<ServiceReference>serviceId-snacks-and-beverages</ServiceReference>
+					<ServiceReference>serviceId-1-piece-hand-baggage</ServiceReference>
+					<ServiceReference>serviceId-125-miles</ServiceReference>
+				</Associations>
+				<BundleID>ECONOMYLIGHT</BundleID>
+				<BundleName>Economy Light</BundleName>
+			</ServiceBundle>
+			<ServiceBundle ListKey="servicebundle-classic">
+				<ItemCount>6</ItemCount>
+				<Associations>
+					<ServiceReference>serviceId-snacks-and-beverages</ServiceReference>
+					<ServiceReference>serviceId-1-piece-hand-baggage</ServiceReference>
+					<ServiceReference>serviceId-125-miles</ServiceReference>
+					<ServiceReference>serviceId-seat-reservation</ServiceReference>
+					<ServiceReference>serviceId-1-checked-baggage</ServiceReference>
+					<ServiceReference>serviceId-booking-change-for-a-fee</ServiceReference>
+				</Associations>
+				<BundleID>ECONOMYCLASSIC</BundleID>
+				<BundleName>Economy Classic</BundleName>
+			</ServiceBundle>
+			<ServiceBundle ListKey="servicebundle-flex">
+				<ItemCount>8</ItemCount>
+				<Associations>
+					<ServiceReference>serviceId-snacks-and-beverages</ServiceReference>
+					<ServiceReference>serviceId-1-piece-hand-baggage</ServiceReference>
+					<ServiceReference>serviceId-125-miles-50-percent</ServiceReference>
+					<ServiceReference>serviceId-seat-reservation</ServiceReference>
+					<ServiceReference>serviceId-seat-in-preferred-zone</ServiceReference>
+					<ServiceReference>serviceId-1-checked-baggage</ServiceReference>
+					<ServiceReference>serviceId-booking-change</ServiceReference>
+					<ServiceReference>serviceId-cancellation-for-a-fee</ServiceReference>
+				</Associations>
+				<BundleID>ECONOMYFLEX</BundleID>
+				<BundleName>Economy Flex</BundleName>
+			</ServiceBundle>
+		</ServiceBundleList>
+		<ServiceList>
+			<Service ObjectKey="serviceId-snacks-and-beverages">
+				<ServiceID Owner="LX">63a92905-121c-4db8-be1b-bf6fe4c902c0</ServiceID>
+				<Name>Snacks And Beverages</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>Snacks And Beverages</Text>
+					</Description>
+				</Descriptions>
+			</Service>
+			<Service ObjectKey="serviceId-1-piece-hand-baggage">
+				<ServiceID Owner="LX">71a01b16-d084-43b7-87be-2fca595472cf</ServiceID>
+				<Name>1 Piece Hand Baggage</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>1 Piece Hand Baggage</Text>
+					</Description>
+				</Descriptions>
+			</Service>
+			<Service ObjectKey="serviceId-125-miles">
+				<ServiceID Owner="LX">645e83ec-94fe-42bd-b309-2bc9d987888f</ServiceID>
+				<Name>125 Miles</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>125 Miles</Text>
+					</Description>
+				</Descriptions>
+			</Service>
+			<Service ObjectKey="serviceId-1-checked-baggage">
+				<ServiceID Owner="LX">e6768fa6-3224-4db4-ae3d-151a5983b2c8</ServiceID>
+				<Name>1 Checked Baggage</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>1 Checked Baggage</Text>
+					</Description>
+				</Descriptions>
+			</Service>
+			<Service ObjectKey="serviceId-seat-reservation">
+				<ServiceID Owner="LX">874e606b-e461-48ad-949e-0d72c34e0fbd</ServiceID>
+				<Name>Seat Reservation</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>Seat Reservation</Text>
+					</Description>
+				</Descriptions>
+			</Service>
+			<Service ObjectKey="serviceId-booking-change-for-a-fee">
+				<ServiceID Owner="LX">e8b8ef72-4a7a-48ba-8738-d51799a865a4</ServiceID>
+				<Name>Booking Change (for a fee)</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>Booking Change (for a fee)</Text>
+					</Description>
+				</Descriptions>
+			</Service>
+			<Service ObjectKey="serviceId-seat-in-preferred-zone">
+				<ServiceID Owner="LX">b139f423-669b-4f7c-8fa9-974cf6b63db0</ServiceID>
+				<Name>Seat in Preferred Zone</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>Seat in Preferred Zone</Text>
+					</Description>
+				</Descriptions>
+			</Service>
+			<Service ObjectKey="serviceId-125-miles-50-percent">
+				<ServiceID Owner="LX">a093318b-51ea-4548-b4be-8e645f8747de</ServiceID>
+				<Name>125 +50%</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>125 +50%</Text>
+					</Description>
+				</Descriptions>
+			</Service>
+			<Service ObjectKey="serviceId-booking-change">
+				<ServiceID Owner="LX">02aeead5-3cde-485f-8b72-6d3491e7b66d</ServiceID>
+				<Name>Booking Change</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>Booking Change</Text>
+					</Description>
+				</Descriptions>
+			</Service>
+			<Service ObjectKey="serviceId-cancellation-for-a-fee">
+				<ServiceID Owner="LX">2dfca550-9cd5-44d5-b8ce-ddf1ba0b5afa</ServiceID>
+				<Name>Cancellation (for a fee)</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>Cancellation (for a fee)</Text>
+					</Description>
+				</Descriptions>
+			</Service>
+			<Service ObjectKey="serviceId-hold-booking">
+				<ServiceID Owner="LX">7c75867d-c507-4660-81fd-6bb8ee2510ee</ServiceID>
+				<Name>Secure booking for 72 hours</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>Secure booking for 72 hours</Text>
+					</Description>
+				</Descriptions>
+				<Price>
+					<Total Code="EUR">22.00</Total>
+				</Price>
+			</Service>
+			<Service ObjectKey="serviceId-upgrade-to-business-1a">
+				<ServiceID Owner="LX">03fdc4a3-845d-441b-84bb-41278d7427a5</ServiceID>
+				<Name>Upgrade to Business</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>Upgrade to Business</Text>
+					</Description>
+				</Descriptions>
+				<Price>
+					<Total Code="EUR">33.00</Total>
+					<PassengerReferences>pax1</PassengerReferences>
+				</Price>
+				<Price>
+					<Total Code="EUR">33.00</Total>
+					<PassengerReferences>pax2</PassengerReferences>
+				</Price>
+				<Price>
+					<Total Code="EUR">21.00</Total>
+					<PassengerReferences>pax3</PassengerReferences>
+				</Price>
+				<Price>
+					<Total Code="EUR">2.00</Total>
+					<PassengerReferences>pax4</PassengerReferences>
+				</Price>
+			</Service>
+			<Service ObjectKey="serviceId-upgrade-to-business-1b">
+				<ServiceID Owner="LX">84db8e7d-743a-4cba-9b6e-8698000ebf1e</ServiceID>
+				<Name>Upgrade to Business</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>Upgrade to Business</Text>
+					</Description>
+				</Descriptions>
+				<Price>
+					<Total Code="EUR">57.00</Total>
+					<PassengerReferences>pax1</PassengerReferences>
+				</Price>
+				<Price>
+					<Total Code="EUR">57.00</Total>
+					<PassengerReferences>pax2</PassengerReferences>
+				</Price>
+				<Price>
+					<Total Code="EUR">28.00</Total>
+					<PassengerReferences>pax3</PassengerReferences>
+				</Price>
+				<Price>
+					<Total Code="EUR">8.00</Total>
+					<PassengerReferences>pax4</PassengerReferences>
+				</Price>
+			</Service>
+			<Service ObjectKey="serviceId-upgrade-to-business-2a">
+				<ServiceID Owner="LX">54f4bf60-b48b-449f-9995-34f1e4e1de12</ServiceID>
+				<Name>Upgrade to Business</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>Upgrade to Business</Text>
+					</Description>
+				</Descriptions>
+				<Price>
+					<Total Code="EUR">33.00</Total>
+					<PassengerReferences>pax1</PassengerReferences>
+				</Price>
+				<Price>
+					<Total Code="EUR">33.00</Total>
+					<PassengerReferences>pax2</PassengerReferences>
+				</Price>
+				<Price>
+					<Total Code="EUR">21.00</Total>
+					<PassengerReferences>pax3</PassengerReferences>
+				</Price>
+				<Price>
+					<Total Code="EUR">2.00</Total>
+					<PassengerReferences>pax4</PassengerReferences>
+				</Price>
+			</Service>
+			<Service ObjectKey="serviceId-upgrade-to-business-2b">
+				<ServiceID Owner="LX">8ec971dd-650e-46a2-9688-199f3e10ede2</ServiceID>
+				<Name>Upgrade to Business</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>Upgrade to Business</Text>
+					</Description>
+				</Descriptions>
+				<Price>
+					<Total Code="EUR">51.00</Total>
+					<PassengerReferences>pax1</PassengerReferences>
+				</Price>
+				<Price>
+					<Total Code="EUR">51.00</Total>
+					<PassengerReferences>pax2</PassengerReferences>
+				</Price>
+				<Price>
+					<Total Code="EUR">23.00</Total>
+					<PassengerReferences>pax3</PassengerReferences>
+				</Price>
+				<Price>
+					<Total Code="EUR">7.00</Total>
+					<PassengerReferences>pax4</PassengerReferences>
+				</Price>
+			</Service>
+			<Service ObjectKey="serviceId-upgrade-to-business-3a">
+				<ServiceID Owner="LX">0fdd35ab-4738-469d-95fd-fc4dc08f7b33</ServiceID>
+				<Name>Upgrade to Business</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>Upgrade to Business</Text>
+					</Description>
+				</Descriptions>
+				<Price>
+					<Total Code="EUR">33.00</Total>
+					<PassengerReferences>pax1</PassengerReferences>
+				</Price>
+				<Price>
+					<Total Code="EUR">33.00</Total>
+					<PassengerReferences>pax2</PassengerReferences>
+				</Price>
+				<Price>
+					<Total Code="EUR">21.00</Total>
+					<PassengerReferences>pax3</PassengerReferences>
+				</Price>
+				<Price>
+					<Total Code="EUR">2.00</Total>
+					<PassengerReferences>pax4</PassengerReferences>
+				</Price>
+			</Service>
+			<Service ObjectKey="serviceId-upgrade-to-business-3b">
+				<ServiceID Owner="LX">eb802b1f-596c-4cdf-a62e-205fa720cc5c</ServiceID>
+				<Name>Upgrade to Business</Name>
+				<Descriptions>
+					<Description dlxlanguage:Language="en">
+						<Text>Upgrade to Business</Text>
+					</Description>
+				</Descriptions>
+				<Price>
+					<Total Code="EUR">47.00</Total>
+					<PassengerReferences>pax1</PassengerReferences>
+				</Price>
+				<Price>
+					<Total Code="EUR">47.00</Total>
+					<PassengerReferences>pax2</PassengerReferences>
+				</Price>
+				<Price>
+					<Total Code="EUR">21.00</Total>
+					<PassengerReferences>pax3</PassengerReferences>
+				</Price>
+				<Price>
+					<Total Code="EUR">6.00</Total>
+					<PassengerReferences>pax4</PassengerReferences>
+				</Price>
+			</Service>
+		</ServiceList>
+	</DataLists>
+</AirShoppingRS>
